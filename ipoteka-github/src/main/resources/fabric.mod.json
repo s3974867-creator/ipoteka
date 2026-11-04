@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "ipoteka",
+  "version": "1.0.0",
+  "name": "Ипотека",
+  "description": "Ипотека на дома, микрозаймы и казино за алмазы.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.ipoteka.IpotekaMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
